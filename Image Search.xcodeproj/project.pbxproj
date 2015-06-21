@@ -16,7 +16,6 @@
 		37E41F1B1B32FD28003DFD43 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37E41F1A1B32FD28003DFD43 /* Images.xcassets */; };
 		37E41F1E1B32FD28003DFD43 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37E41F1C1B32FD28003DFD43 /* LaunchScreen.xib */; };
 		37E41F2A1B32FD28003DFD43 /* Image_SearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E41F291B32FD28003DFD43 /* Image_SearchTests.swift */; };
-		37E41F361B33122A003DFD43 /* search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E41F351B33122A003DFD43 /* search.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +42,6 @@
 		37E41F231B32FD28003DFD43 /* Image SearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Image SearchTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37E41F281B32FD28003DFD43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37E41F291B32FD28003DFD43 /* Image_SearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image_SearchTests.swift; sourceTree = "<group>"; };
-		37E41F351B33122A003DFD43 /* search.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = search.swift; path = ../search.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +86,6 @@
 			isa = PBXGroup;
 			children = (
 				37E41F131B32FD28003DFD43 /* AppDelegate.swift */,
-				37E41F351B33122A003DFD43 /* search.swift */,
 				37E41F151B32FD28003DFD43 /* searchViewController.swift */,
 				37E41F171B32FD28003DFD43 /* Main.storyboard */,
 				37E41F1A1B32FD28003DFD43 /* Images.xcassets */,
@@ -226,7 +223,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				37D8D4531B3678C5002B7C32 /* TableViewCell.swift in Sources */,
-				37E41F361B33122A003DFD43 /* search.swift in Sources */,
 				37E41F161B32FD28003DFD43 /* searchViewController.swift in Sources */,
 				37E41F141B32FD28003DFD43 /* AppDelegate.swift in Sources */,
 				37D8D4511B3678A3002B7C32 /* FirstViewController.swift in Sources */,
