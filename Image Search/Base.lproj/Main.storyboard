@@ -51,6 +51,15 @@
                                     <outlet property="delegate" destination="vDe-MD-ACg" id="Yej-gZ-CPa"/>
                                 </connections>
                             </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Owk-sf-C7j">
+                                <rect key="frame" x="289" y="28" width="30" height="30"/>
+                                <state key="normal" title="+">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pushAddBtn:" destination="vDe-MD-ACg" eventType="touchUpInside" id="TYI-ie-zLS"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -61,7 +70,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r1n-U0-5R7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-495.5" y="516.5"/>
+            <point key="canvasLocation" x="-547.5" y="490.5"/>
         </scene>
         <!--Search View Controller-->
         <scene sceneID="ufC-wZ-h7g">
