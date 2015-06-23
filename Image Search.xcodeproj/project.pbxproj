@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37CD6E681B395C710044089E /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CD6E671B395C710044089E /* TableViewController.swift */; };
 		37D8D4511B3678A3002B7C32 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D8D4501B3678A3002B7C32 /* FirstViewController.swift */; };
 		37D8D4531B3678C5002B7C32 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D8D4521B3678C5002B7C32 /* TableViewCell.swift */; };
-		37D8D4551B368D55002B7C32 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37D8D4541B368D55002B7C32 /* WebKit.framework */; };
 		37E41F141B32FD28003DFD43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E41F131B32FD28003DFD43 /* AppDelegate.swift */; };
 		37E41F161B32FD28003DFD43 /* searchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E41F151B32FD28003DFD43 /* searchViewController.swift */; };
 		37E41F191B32FD28003DFD43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37E41F171B32FD28003DFD43 /* Main.storyboard */; };
@@ -29,9 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		37CD6E671B395C710044089E /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		37D8D4501B3678A3002B7C32 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		37D8D4521B3678C5002B7C32 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
-		37D8D4541B368D55002B7C32 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		37E41F0E1B32FD28003DFD43 /* Image Search.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Image Search.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37E41F121B32FD28003DFD43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37E41F131B32FD28003DFD43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -49,7 +49,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37D8D4551B368D55002B7C32 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,7 +65,6 @@
 		37E41F051B32FD28003DFD43 = {
 			isa = PBXGroup;
 			children = (
-				37D8D4541B368D55002B7C32 /* WebKit.framework */,
 				37E41F101B32FD28003DFD43 /* Image Search */,
 				37E41F261B32FD28003DFD43 /* Image SearchTests */,
 				37E41F0F1B32FD28003DFD43 /* Products */,
@@ -88,6 +86,7 @@
 				37E41F131B32FD28003DFD43 /* AppDelegate.swift */,
 				37E41F151B32FD28003DFD43 /* searchViewController.swift */,
 				37E41F171B32FD28003DFD43 /* Main.storyboard */,
+				37CD6E671B395C710044089E /* TableViewController.swift */,
 				37E41F1A1B32FD28003DFD43 /* Images.xcassets */,
 				37E41F1C1B32FD28003DFD43 /* LaunchScreen.xib */,
 				37E41F111B32FD28003DFD43 /* Supporting Files */,
@@ -225,6 +224,7 @@
 				37D8D4531B3678C5002B7C32 /* TableViewCell.swift in Sources */,
 				37E41F161B32FD28003DFD43 /* searchViewController.swift in Sources */,
 				37E41F141B32FD28003DFD43 /* AppDelegate.swift in Sources */,
+				37CD6E681B395C710044089E /* TableViewController.swift in Sources */,
 				37D8D4511B3678A3002B7C32 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
